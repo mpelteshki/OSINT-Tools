@@ -150,7 +150,7 @@ function doSearch12(Search12)
 
 <script type="text/javascript">
 function doSearch13(Search13)
-{window.open('https://www.googleapis.com/youtube/v3/videos?id=' + Search13 + '&part=snippet,statistics,recordingDetails&key=REMOVED_SECRET', 'Search13window');}
+{window.open('https://www.googleapis.com/youtube/v3/videos?id=' + Search13 + '&part=snippet,statistics,recordingDetails&key=YOUR_YOUTUBE_API_KEY', 'Search13window');}
 </script>
 <form onsubmit="doSearch13(this.Search13.value); return false;">
 <input type="text" id="Search13" name="Search13" size="30" placeholder="YouTube Video ID" />
@@ -332,7 +332,7 @@ function doSearch32(Search32)
 
 <script type="text/javascript">
 function doSearch33(Search33)
-{window.open('https://youtube.googleapis.com/youtube/v3/channels?part=snippet&id=' + Search33 + '&key=REMOVED_SECRET', 'Search33window');}
+{window.open('https://youtube.googleapis.com/youtube/v3/channels?part=snippet&id=' + Search33 + '&key=YOUR_YOUTUBE_API_KEY', 'Search33window');}
 </script>
 <form onsubmit="doSearch33(this.Search33.value); return false;">
 <input type="text" name="Search33" size="30" placeholder="YouTube Channel ID" />
@@ -340,7 +340,7 @@ function doSearch33(Search33)
 
 <script type="text/javascript">
 function doSearch34(Search34,term)
-{window.open('https://www.googleapis.com/youtube/v3/commentThreads?part=id,snippet&videoId=' + Search34 + '&pageToken=&order=Relevance&maxResults=100&searchTerms=' + term + '&textFormat=plainText&key=REMOVED_SECRET', 'Search34window');}
+{window.open('https://www.googleapis.com/youtube/v3/commentThreads?part=id,snippet&videoId=' + Search34 + '&pageToken=&order=Relevance&maxResults=100&searchTerms=' + term + '&textFormat=plainText&key=YOUR_YOUTUBE_API_KEY', 'Search34window');}
 </script>
 <form onsubmit="doSearch34(this.Search34.value,this.term.value); return false;">
 <input type="text" name="Search34" size="17" placeholder="YouTube Video ID" />
